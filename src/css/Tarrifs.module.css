@@ -1,0 +1,50 @@
+.container {
+
+}
+.container > button {
+    width: 100%;
+    margin-top: 40px;
+}
+.container * {
+    text-align: center;
+}
+.currenciesBlock {
+    display: grid;
+    grid-auto-flow: column;
+    column-gap: 2%;
+}
+.currenciesBlock > div {
+    display: grid;
+    grid-auto-flow: row !important;
+    row-gap: 2%;
+}
+.container > div {
+    width: 100%;
+    display: grid;
+    grid-auto-flow: column;
+    column-gap: 2%;
+}
+.container > article > div {
+    display: grid;
+    grid-auto-flow: column;
+    column-gap: 2%;
+}
+.container > article button {
+    width: 100%;
+}
+.onceTarrif {
+    background-color: #151515;
+    animation: showOpacity 1s 1;
+    border-radius: 6px;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+@keyframes showOpacity {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

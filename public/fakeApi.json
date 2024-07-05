@@ -1,0 +1,22 @@
+{
+    "tarrifs": [
+        {
+            "name": "Стандартный",
+            "text": "Текст о тарифе",
+            "priceMonth": 100,
+            "priceYear": 1000,
+            "activeTime": "priceMonth",
+            "fromCurrency": "kz",
+            "toCurrency": "ch"
+        },
+        {
+            "name": "Продвинутый",
+            "text": "Текст о тарифе",
+            "priceMonth": 150,
+            "priceYear": 1400,
+            "activeTime": "priceMonth",
+            "fromCurrency": "kz",
+            "toCurrency": "ch"
+        }
+    ]
+}
